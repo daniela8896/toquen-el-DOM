@@ -1,0 +1,112 @@
+@media screen and (max-width: 740px){ 
+    .textos__hero{
+        text-align: center;
+    }
+    .hero__nav-links a{
+        font-size: .7em;
+        padding: 5px ;
+        margin-bottom: 20px;
+        gap: 5px;
+    }
+    .hero__nav{
+        position: relative;
+        background-color: #A3DDCB;
+        width: 100%;
+        padding: 10px 0;
+        position: fixed;
+        top: 500px;
+        border-radius: 30px;
+        height: calc(100% -600px);
+        overflow-y: auto;
+        right: 100%;
+        transition: right 0,3s;
+    }
+    
+    .hero__nav-links{
+        flex-direction: column;
+        gap: 5px;
+        line-height: 30px;
+        background-color: var(#A3DDCB);
+        
+    }
+    .hero__nav-links li{
+        padding: 5px 5px;
+        font-size: 2em;
+    }
+    .hero__nav-links a i{
+        font-size: 1em;
+        margin-right: 0px;
+    }
+    .menu-bar{
+        display: block;
+       
+    }
+    
+    .btn_menu{
+        display:inline-block;
+        border-radius: 20px;
+        padding: 10px;
+        width: 20%;
+        text-align: center;
+        margin-left: 10px;
+       
+    }
+    .menu-bar_visible{
+        right: 0;
+    }
+    .hero{
+        height: 400px;
+        width: 100%;
+         
+    }
+    .textos__hero{
+        height: 150px;
+        justify-content: space-between;
+        margin-top: 15%;
+    }
+    .textos__hero h1{
+        font-size: 2rem;
+    }
+    .textos__hero p{
+        font-size: 1em;
+        font-weight: 300;
+        text-align: center;
+    }
+    .img_menu{
+        width: 15%;
+        height: 10%;
+        display: block;
+    }
+    .menu_btn{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*seccion diviertete*/
+
+    .diviertete{
+        grid-template-columns: 1fr;
+    }
+    .diviertete__textos h1{
+        font-size: 1.5em;
+    }
+
+    /*seccion frase*/
+
+    .frase{
+        grid-template-columns: 1fr;  
+    }
+    .frase__texto p{
+        font-size: 3em;
+    }
+
+    /*seccion card*/
+
+    .cards__card{
+        width: 50%;
+    }
+
+
+    
+
+}
