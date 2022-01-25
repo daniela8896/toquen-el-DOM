@@ -58,8 +58,10 @@ body{
 .textos__hero a{
     text-decoration: none;
     display: inline-block;
+    font-size: 1.5em;
+    color: #fff;
     padding: 10px 30px;
-    background: var(--color-amarillo);
+    background: var(--color-salmon);
     border-radius: 20px;
 }
 .hero__svg{
@@ -70,14 +72,23 @@ body{
 }
 
 .hero__nav{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    background-color: #E8E9A1;
+    padding: 20px 0;
 }
 .hero__nav-links{
-    grid-column: 3/8;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    grid-column: 2/8;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+   
+}
+.nav_link1{
+      grid-column: 2/4;
+}
+.nav_link2 {
+    grid-column: 5/7;
+}
+.nav_link3 {
+    grid-column: 8/10;
 }
 .hero__nav-links li{
     list-style: none;
@@ -85,14 +96,15 @@ body{
 .hero__nav-links a{
     text-decoration: none;
     background-color: var(--color-salmon);
-    padding: 10px 10px;
+    padding: 10px 0;
     border-radius: 30px;
     color: #fff;
+    font-size: 1.5em;
     cursor: pointer;
     display: inline-block;
     display: flex;
-    justify-content: space-around;
-    gap: 10px;
+    justify-content: center;
+    
    
 }
 .hero__nav-links a i{
@@ -114,6 +126,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+    margin-top: 50px;
 }
 .diviertete__textos{
     display: flex;
@@ -124,32 +137,40 @@ body{
     padding: 0 20px;
 }
 .diviertete__textos h1{
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: var(--tipo--mochiy);
     text-align: center;
     color: var(--color-salmon);
 }
 .diviertete__textos p{
     text-align: center;
+    font-size: 2em;
 }
 
 .diviertete__textos-btn{
-  background-color: var(--color-amarillo);
-  padding: 10px;
-  text-align: center;
+  background-color: var(--color-salmon);
   text-decoration: none;
-  color: #000;
+  color: rgb(255, 255, 255);
   border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  font-size: 1.5em;
 }
 .diviertete__textos-btn img{
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+   
 }
-.diviertete__img picture{
+.diviertete__img picture {
    display: flex;
    justify-content: center;
    align-items: center;
+   
+}
+.diviertete__img picture img{
+   width: 100%;
 }
 
 /*seccion frase*/
@@ -157,7 +178,7 @@ body{
 .frase{
    display: grid;
    grid-template-columns: 1fr 1fr;
-   margin-top: 5%;
+   margin-top: 80px;
 }
 .frase__img picture{
    display: flex;
@@ -187,19 +208,19 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 10px;
+    gap: 50px;
     margin-top: 5%;
+    margin-bottom: 10%;
 }
 .cards__card{
     width: 40%;
-    background-color: var(--color-salmon);
+    background-color: var(--color-verde);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
-    -webkit-box-shadow: 5px 5px 15px 5px #000000;
-    box-shadow: 5px 5px 15px 5px #A3DDCB;
-    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px 3px #bdb6b6;
+   
 }
 .cards__contenido{
     display: flex;
@@ -207,15 +228,26 @@ body{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 10px 0;
+    padding: 30px 0;
+}
+.cards__contenido h2{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 10px;
+}
+.cards__contenido img {
+    width: 30%;
+    text-align: center;
+    
 }
 .cards__contenido a{
-    background-color: var(--color-amarillo);
+    background-color: var(--color-salmon);
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
+    font-size: 1.5em;
 }
 
 
@@ -223,17 +255,18 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--color-verde);
-    height: 80px;
+    background-color: var(--color-amarillo);
+    height: 100px;
     margin-bottom: 0;
-    margin-top: 20px;
+   
 }
 .footer__contenedor a{
-    background-color: var(--color-amarillo);
+    background-color: var(--color-salmon);
     padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
-    color: #000;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
 }
 
 
