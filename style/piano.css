@@ -16,7 +16,9 @@ body{
     --tipo--mochiy: 'Mochiy Pop P One',
         sans-serif;
 }
+
 /*nav*/
+
 .header{
    background-color:var(--color-verde);
    height: 100px;
