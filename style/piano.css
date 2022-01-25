@@ -98,9 +98,18 @@ body{
    border-radius: 0px 0px 5px 5px;
    
 }
+.texto_blanco{
+    font-size: 2em;
+    font-family: var(--tipo-poppins);
+    margin-top: 350px;
+}
+.texto_negro{
+    font-size: 2em;
+    font-family: var(--tipo-poppins);
+    margin-top: 200px;
+}
 .REb4{
     left: 60px;
-    
 }
 .MIb4{
     left: 160px;
@@ -123,6 +132,15 @@ body{
 
 .active{
     background-color: #aaa;
+}
+
+.intrucciones__contenedor {
+    
+    width: 80%;
+    margin-top: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: var(--tipo-poppins);
 }
 
 /*footer*/
