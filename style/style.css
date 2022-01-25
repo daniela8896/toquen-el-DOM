@@ -49,6 +49,7 @@ body{
 .textos__hero h1{
     font-family: var(--tipo--mochiy);
     font-size: 4rem;
+    text-align: center;
 }
 .textos__hero p{
     font-size: 2em;
@@ -96,20 +97,20 @@ body{
 .hero__nav-links a{
     text-decoration: none;
     background-color: var(--color-salmon);
-    padding: 10px 0;
+    padding: 10px 10px;
     border-radius: 30px;
     color: #fff;
     font-size: 1.5em;
     cursor: pointer;
     display: inline-block;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     
    
 }
 .hero__nav-links a i{
    color: var(--color-verde);
-   margin-right: 20px;
+   margin-right: 10px;
 }
 .menu-bar{
     display: none;

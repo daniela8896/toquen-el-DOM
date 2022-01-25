@@ -61,6 +61,7 @@ body{
 .content{
     margin: auto;
     margin-top: 80px;
+    margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,10 +82,11 @@ body{
     align-items: flex-start;
     position: relative;
     border-radius: 30px;
+    margin: 15px;
 }
 .tecla-blanca{
    height: 500px;
-   width: 100px;
+   width: 75px;
    border: 2px solid black;
    background-color: #ffffff;
    border-radius: 5px 5px 5px 5px;
@@ -93,7 +95,7 @@ body{
    border: 2px solid black;
    background-color: #E5707E;
    height: 300px;
-   width: 80px;
+   width: 70px;
    position: absolute;
    border-radius: 0px 0px 5px 5px;
    
@@ -109,25 +111,25 @@ body{
     margin-top: 200px;
 }
 .REb4{
-    left: 60px;
+    left: 40px;
 }
 .MIb4{
-    left: 160px;
+    left: 120px;
 }
 .SOLb4{
-    left: 360px;
+    left: 265px;
 }
 .LAb4{
-    left: 460px;
+    left: 345px;
 }
 .SIb4{
-    left: 560px;
+    left: 425px;
 }
 .REb5{
-    left: 760px;
+    left: 565px;
 }
 .MIb5{
-    left: 860px;
+    left: 645px;
 }
 
 .active{
@@ -149,6 +151,8 @@ body{
     background-color: var(--color-verde);
     height: 100px;
     bottom: 0;
+    width: 100%;
+    left: 0;
 }
 .footer__content{
     display: grid;
@@ -173,4 +177,52 @@ body{
     border-radius: 10px;
     font-size: 1.5em;
     color: black;
+}
+
+@media screen and (max-width: 760px){
+    .tecla-blanca {
+        height: 400px;
+        width: 60px;
+        font-size: .5em;
+    }
+
+    .tecla-negra {
+        height: 250px ;
+        width: 50px;
+        font-size: .5em;
+    }
+
+    .REb4 {
+        left: 35px;
+    }
+
+    .MIb4 {
+        left: 95px;
+    }
+
+    .SOLb4 {
+        left: 215px;
+    }
+
+    .LAb4 {
+        left: 275px;
+    }
+
+    .SIb4 {
+        left: 335px;
+    }
+
+    .REb5 {
+        left: 450px;
+    }
+
+    .MIb5 {
+        left: 520px;
+    }
+
+    .active {
+        background-color: #aaa;
+    }
+
+
 }
