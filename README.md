@@ -177,7 +177,9 @@ inicio, piano virtual, videos, tutoriales.
 - amarillo : #E8E9A1.
 
 </div>
+
 ___
+
 
 <div style="color: orange">
 
@@ -218,5 +220,9 @@ ___
 </div>
 
 - **[Repo_GITHUB]( https://github.com/daniela8896/toquen-el-DOM)**
+
+---
+
+26 de enero de 2022
 
 ---
